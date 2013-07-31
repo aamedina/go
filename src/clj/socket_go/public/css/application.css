@@ -1,0 +1,105 @@
+header {
+  background-color: #F7F7F7;
+  margin-bottom: 0;
+} 
+
+#board {
+  margin-top: 10px;
+  width: 500px;
+  height: 500px;
+  z-index: 0;
+  background-color: #DCB35C;
+  position: relative;
+  background-image: url("/static/img/board_750.png");
+  background-size: cover;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 6px;
+  margin-top: 5px;
+  margin-bottom: -2px;
+  background-color: transparent;
+  background-size: cover;
+  display: inline-block;
+}
+
+#scores {
+ width: 500px;  
+}
+
+#scores h1 {
+  color: #3f3f3f;
+}
+
+#white {
+  float: right;
+}
+
+.nav > li > .btn {
+  margin-top: 13px;
+  margin-left: 6px;
+}
+
+ul.nav.li.a {
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+div.navbar {
+  margin-bottom: 0;
+}
+
+div.container#main {
+  background-color: #F7F7F7;
+}
+
+div#content {  
+  background-color: #F7F7F7;
+  padding-bottom: 10px;
+}
+
+footer {  
+  padding: 10px;
+  height: 100%;
+  color: #F3F3F3;
+  background-color: #3F3F3F;
+} 
+
+.btn {
+  color: #F7F7F7;
+  background-color: #93A722;
+  border-color: #93A722;
+  text-transform: uppercase;
+  box-shadow: 0px 1px 0px rgba(247, 247, 247, 0.3) inset;
+  -webkit-box-shadow: 0px 1px 0px rgba(247, 247, 247, 0.3) inset;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+  -webkit-text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #93AF22;
+  border-color: #93A722;
+}
+
+/* $white: #F7F7F7; */
+/* $off-white: #F4F7FC; */
+/* $blue-white: #E5EBF1; */
+/* $light-grey: #D1D4D3; */
+/* $medium-grey: #5D6876; */
+/* $dark-grey: #3F3F43; */
+
+/* $orange: #D75A36; */
+/* $dark-green: #83A722; */
+/* $light-green: #B7D50D; */
+/* $light-blue: #6494F6; */
+/* $dark-blue: #527ACB; */
+
+/* // used for trophy and lifecycle image, not part of style guide */
+/* $light-orange: #E78521; */
